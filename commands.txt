@@ -1,0 +1,96 @@
+ 382  git init
+  383  git status
+  384  nano feat_1a.txt
+  385  git status
+  386  git add .
+  387  git commit -m "File 1 added"
+  388  git checkout -m feature1
+  389  git checkout -b feature1
+  390  git checkout feature1
+  391  nano feat_1.txt
+  392  git status
+  393  git add .
+  394  git commit -m "feat1 txt added"
+  395  git branch
+  396  git kig
+  397  git log
+  398  git branch
+  399  git remote add origin git@github.com:samrocks03/repo-3.git
+  400  git remote
+  401  git checkout -b feature2
+  402  nano feat2.txt
+  403  git branch
+  404  git checkout -b feature3
+  405  git checkout feature2
+  406  git push remote feature1
+  407  git remote
+  408  git push remote feature1
+  409  cd Documents/
+  410  cd Folder/
+  411  ls
+  412  ls -a
+  413  git init
+  414  mkdir FolderA
+  415  cd FolderA
+  416  nano fa1.txt
+  417  git add .
+  418  git commit -m "fa1.txt added"
+  419  ls -a
+  420  cd ..
+  421  ls -a
+  422  git status
+  423  git log
+  424  git remote add origin "git@github.com:samrocks03/re1.git"
+  425  git remote -v
+  426  git show
+  427  git branch
+  428  git log
+  429  git push origin master
+  430  git checkout -b feature1
+  431  mkdir FolderB
+  432  cd FolderB
+  433  nano fb1.txt
+  434  git add .
+  435  git status
+  436  git commit -m "added file 1 from folder b in feature 1"
+  437  git log
+  438  git push origin feature1
+  439  dir
+  440  nano fb1.txt
+  441  git stash
+  442  git stash pop
+  443  git stash
+  444  git status
+  445  git log
+  446  git stash list
+  447  git stash pop
+  448  nano fb1.txt 
+  449  nano fb1.txt
+  450  git status
+  451  git add .
+  452  git stash
+  453  git stash pop
+  454  git add .
+  455  git commit -m "---"
+  456  git log
+  457  git reset --soft HEAD~
+  458  git status
+  459  git add .
+  460  git commit -m "updated fb1.txt"
+  461  git branch
+  462  git pull git@github.com:samrocks03/re1.git
+  463  git branch
+  464  ls
+  465  cd ..
+  466  cd FolderA
+  467  ls
+  468  cd..
+  469  cd ..
+  470  git pull https://github.com/samrocks03/re1.git
+  471  git pull https://github.com/samrocks03/re1/tree/feature1/FolderB
+  472  git fetch 
+  473  git branch
+  474  git checkout new_branch
+  475  git branch
+  476  git push origin -d new_branch 
+  477  history
